@@ -74,6 +74,10 @@ nav {
     padding: 112.5px;
 }
 
+body {
+    overflow: hidden;
+}
+
 main {
     background-color: #FED32F;
     height: 78vh;
@@ -112,9 +116,9 @@ main {
 .mushroom {
     display: flex;
     width: 8%;
-    top: 75%;
+    top: 80%;
     position: absolute;
-    left: 50%;
+    left: 53%;
 }
 
 h1 {
@@ -167,7 +171,7 @@ p {
     font-size: 15px;
     position: absolute;
     bottom: 377.5px;
-    left: 595px;
+    left: 605px;
 }
 
 .searchButton:hover {
