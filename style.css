@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    color: #002140;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+ul a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.home{
+    text-decoration: 5px underline;
+}
+
+
+ul a:hover {
+    transition: 0.5s;
+    opacity: 0.7;
+    text-decoration: 5px underline;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9em;
+    height: 3em;
+    background-color: #FF783E;
+    font-weight: bold;
+    color: white;
+    border-radius: 100px;
+    font-size: 15px;
+}
+
+.login:hover {
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.logoname {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 48px;
+}
+
+.name {
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    background-color: white;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 112.5px;
+}
+
+main {
+    background-color: #FED32F;
+    height: 78vh;
+    margin: 3rem;
+    margin-top: 0;
+    border-radius: 50px;
+}
+
+.food {
+    display: flex;
+    width: 42.5%;
+    position: relative;
+    left: 55%;
+    z-index: 1;
+}
+
+.wash::after{
+    content: "";
+    width: 550px;
+    height: 550px;
+    left: 74.5%;
+    top: 53.75%;
+    border: 2px solid #fff;
+    border-radius: 100% ;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    position: relative;
+    bottom: 475px;
+    left: 60px;
+    font-weight: 700;
+    font-size: 50px;
+    width: 50%;
+}
+
+p {
+    position: relative;
+    bottom: 450px;
+    left: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 50%;
+}
+
+.search {
+    position: relative;
+}
+
+.search input {
+    position: absolute;
+    bottom: 375px;
+    left: 60px;
+    width: 47.5%;
+    height: 7vh;
+    color: black;
+    background: white;
+    border: 1px solid rgba(255, 255, 2555, 0.5);
+    outline: none;
+    border-radius: 100px;
+    padding-left: 25px;;
+}
+
+.searchButton{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9em;
+    height: 3em;
+    background-color: #FF783E;
+    font-weight: bold;
+    color: white;
+    border-radius: 100px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 377.5px;
+    left: 595px;
+}
+
+.searchButton:hover {
+    transition: 0.5s;
+    opacity: 0.7;
+}
