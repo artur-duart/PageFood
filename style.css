@@ -102,6 +102,21 @@ main {
     transform: translate(-50%, -50%);
 }
 
+.leaf {
+    display: flex;
+    width: 10%;
+    position: absolute;
+    left: 90%;
+}
+
+.mushroom {
+    display: flex;
+    width: 8%;
+    top: 75%;
+    position: absolute;
+    left: 50%;
+}
+
 h1 {
     position: relative;
     bottom: 475px;
