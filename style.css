@@ -22,7 +22,8 @@ body {
     align-items: center;
     max-width: 79.5rem;
     min-width: 79.5rem;
-    max-width: 31.5rem;;
+    max-width: 31.5rem;
+    ;
     min-height: 31.5rem;
     background: #fed32f;
     padding: 4rem;
@@ -39,7 +40,9 @@ body {
     z-index: 1;
 }
 
-header li, a, button {
+header li,
+a,
+button {
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
@@ -82,7 +85,7 @@ header nav .nav-links li a:hover {
     text-decoration: 5px underline;
 }
 
-header nav .nav-links li .home{
+header nav .nav-links li .home {
     text-decoration: 5px underline;
 }
 
@@ -107,7 +110,7 @@ header button:hover {
     align-items: center;
 }
 
-.content-container .content h1{
+.content-container .content h1 {
     font-weight: 700;
     font-size: 50px;
     max-width: 50%;
@@ -170,7 +173,7 @@ header button:hover {
 }
 
 .content-container .content .search-wrap .search-box .btn:hover {
-    background-color: #ffa178; 
+    background-color: #ffa178;
 }
 
 .content-container .content .search-wrap .search-box .btn strong {
@@ -182,7 +185,6 @@ header button:hover {
     top: 17%;
     right: 150px;
     width: 27.5rem;
-    
 }
 
 .content-container .content .dish-img::after {
@@ -195,11 +197,11 @@ header button:hover {
     position: absolute;
     transform: translate(-50%, 50%);
     border-radius: 100%;
+    z-index: 0;
 }
 
 .content-container .content .dish-img img {
     width: 120%;
-    z-index: 1;
 }
 
 .content-container .content .leaf-img {
@@ -207,7 +209,7 @@ header button:hover {
     top: 17%;
     left: 1175px;
     width: 27.5rem;
-    
+
 }
 
 .content-container .content .leaf-img img {
